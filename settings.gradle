@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "room-kanji-lookup"
+rootProject.name = "android-room-kanji-lookup"

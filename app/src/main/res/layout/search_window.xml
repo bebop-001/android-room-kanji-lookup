@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/search_window_RL">
+    <EditText
+        android:id="@+id/search_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionSearch"
+        android:focusableInTouchMode="true"
+        android:hint="@string/search_results"
+        android:singleLine="true"
+        android:autofillHints=""
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/search_search_BTN"
+        android:inputType="text" />
+
+    <ImageButton
+        android:id="@+id/search_search_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/search_clear_BTN"
+        android:background="@android:drawable/ic_menu_search"
+        android:contentDescription="@string/search_for_kanji"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/search_clear_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/ic_delete"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:contentDescription="@string/search_results" />
+
+</RelativeLayout>

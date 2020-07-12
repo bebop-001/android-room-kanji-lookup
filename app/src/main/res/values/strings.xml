@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">room-kanji-lookup</string>
+
+    <string name="search_for_kanji">search for kanji</string>
+    <string name="search">Search</string>
+    <string name="search_results">Search Results</string>
+
 </resources>
